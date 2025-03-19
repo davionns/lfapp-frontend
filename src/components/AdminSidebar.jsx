@@ -15,7 +15,7 @@ const AdminSidebar = ({ onLogout }) => {
 
   const handleLogout = () => {
     onLogout();
-    navigate('/');
+    navigate('/login');
   };
 
   const SidebarItem = ({ icon: Icon, text, to, onClick }) => (
